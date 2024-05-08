@@ -21,8 +21,4 @@ public class CadastroView {
         return new Usuario(email, senha);
 
     }
-
-    public void escolhaInvalida(){
-        System.out.println("Escolha Inválida!");
-    }
 }

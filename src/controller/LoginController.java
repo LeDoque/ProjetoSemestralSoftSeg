@@ -15,9 +15,9 @@ public class LoginController {
             this.escolha = this.lv.MenuLogin();
 
             if(this.escolha == 1){
-                this.ccl = new CadastroController();
-            } else if (this.escolha == 2) {
 
+            } else if (this.escolha == 2) {
+                this.ccl = new CadastroController();
             } else {
                 this.lv.escolhaInvalida();
             }

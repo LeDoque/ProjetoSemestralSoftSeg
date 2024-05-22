@@ -2,11 +2,11 @@ package view;
 
 import java.util.Scanner;
 
-public class LoginView {
+public class MenuView {
 
     private Scanner scanner;
 
-    public LoginView(){
+    public MenuView(){
         this.scanner = new Scanner(System.in);
     }
 

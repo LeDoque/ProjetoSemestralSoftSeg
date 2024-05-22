@@ -1,25 +1,25 @@
 package controller;
 
-import view.LoginView;
+import view.MenuView;
 
-public class LoginController {
+public class MenuController {
 
     private CadastroController ccl;
-    private LoginView lv;
+    private MenuView mv;
     private int escolha;
 
-    public LoginController() {
-        this.lv = new LoginView();
+    public MenuController() {
+        this.mv = new MenuView();
 
         while(escolha != 9){
-            this.escolha = this.lv.MenuLogin();
+            this.escolha = this.mv.MenuLogin();
 
             if(this.escolha == 1){
 
             } else if (this.escolha == 2) {
                 this.ccl = new CadastroController();
             } else {
-                this.lv.escolhaInvalida();
+                this.mv.escolhaInvalida();
             }
         }
 

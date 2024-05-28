@@ -12,7 +12,7 @@ public class CadastroController {
     private UsuarioDAO uDAO;
     public CadastroController(){
         this.cv = new CadastroView();
-        this.usuario = this.cv.Cadastro();
+        this.usuario = this.cv.cadastro();
         this.uDAO = new UsuarioDAO();
         this.uDAO.inserir(this.usuario);
     }

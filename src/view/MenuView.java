@@ -10,7 +10,7 @@ public class MenuView {
         this.scanner = new Scanner(System.in);
     }
 
-    public int MenuLogin(){
+    public int menu(){
         System.out.println("---- BEM-VINDO ----");
         System.out.println("Por favor, escolha uma das opções abaixo");
         System.out.println("(1) Realizar Login");
@@ -21,6 +21,7 @@ public class MenuView {
     }
 
     public void escolhaInvalida(){
+
         System.out.println("Escolha Inválida!");
     }
 }

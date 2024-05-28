@@ -11,10 +11,12 @@ public class CadastroView {
         this.scanner = new Scanner(System.in);
     }
 
-    public Usuario Cadastro(){
+    public Usuario cadastro(){
         System.out.println("---- CADASTRO ----");
+
         System.out.print("E-mail: ");
         String email = scanner.nextLine();
+
         System.out.print("Senha: ");
         String senha = scanner.nextLine();
 

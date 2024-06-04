@@ -28,4 +28,13 @@ public class Usuario {
     public void setSenha(String senha){
         this.senha= senha;
     }
+    public Financeiro financeiro;
+
+    public Financeiro getFinanceiro() {
+        return financeiro;
+    }
+
+    public void setFinanceiro(Financeiro financeiro) {
+        this.financeiro = financeiro;
+    }
 }

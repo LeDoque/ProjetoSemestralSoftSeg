@@ -3,6 +3,8 @@ package controller;
 import view.MenuView;
 
 import java.util.Scanner;
+import model.Financeiro;
+import view.FinanceiroView;
 
 public class MenuController {
 
@@ -24,10 +26,18 @@ public class MenuController {
                 lcl.realizarLogin(scanner);
             } else if (this.escolha == 2) {
                 this.ccl = new CadastroController();
+            } else if (this.escolha == 3) {
+
+                this.gerenciarFinancas();
             } else {
                 this.mv.escolhaInvalida();
             }
         }
 
+    }
+
+    private void gerenciarFinancas() {
+        FinanceiroController fcl = new FinanceiroController(new FinanceiroView(scanner));
+        fcl.gerenciarFinancas();
     }
 }

@@ -1,5 +1,7 @@
 
-r	java:S106"+Replace this use of System.err by a logger.(£–‘ˆıÿÿÿÿ8ıîÎÉş1J$d95a10a9-31e2-4860-8d37-72e1cb0fdb6c
-m	java:S106"+Replace this use of System.err by a logger.(Ç¡«…8şîÎÉş1J$deca93a6-5c12-45c2-8ba3-e92d58c1edaa
-r	java:S1061"+Replace this use of System.err by a logger.(»Ù†ğıÿÿÿÿ8ÿîÎÉş1J$4fa15f73-ae66-43ce-9996-05827c33f118
-m	java:S1062"+Replace this use of System.err by a logger.(Ç¡«…8€ïÎÉş1J$0021bafb-ac9a-448f-b1c7-019ed13c5169
+r	java:S106"+Replace this use of System.err by a logger.(£–‘ˆıÿÿÿÿ8ÿîÎÉş1J$17851284-055d-44d7-a421-08da87a3ae1e
+m	java:S106"+Replace this use of System.err by a logger.(Ç¡«…8€ïÎÉş1J$a0c20db6-d488-4957-ab14-74722ed896b8
+A
+java:S6905#"Don't use the query "SELECT *".( Û‡¸üÿÿÿÿ8ÊÓÿËş1
+L	java:S1062"+Replace this use of System.err by a logger.(»Ù†ğıÿÿÿÿ8ÍÓÿËş1
+G	java:S1063"+Replace this use of System.err by a logger.(Ç¡«…8ÎÓÿËş1

@@ -1,59 +1,50 @@
 package dao;
 
 import model.Usuario;
-
+import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class UsuarioDAO {
 
     private Conexao conexao;
-    private String query;
-    private PreparedStatement ps;
-    private ResultSet rs;
-    private boolean check = false;
 
-    public UsuarioDAO(){
+    public UsuarioDAO() {
         this.conexao = Conexao.getInstance();
     }
 
-    public void inserir(Usuario usuario){
+    public void inserir(Usuario usuario) {
+        String query = "INSERT INTO Usuarios (email) VALUES (?)";
+        try (Connection conn = this.conexao.getConnection();
+             PreparedStatement ps = conn.prepareStatement(query)) {
 
-            try {
-                this.query = "INSERT INTO usuario (email, senha) VALUES (?, ?)";
-                this.ps = this.conexao.getConnection().prepareStatement(query);
-                this.ps.setString(1, usuario.getEmail());
-                this.ps.setString(2, usuario.getSenha());
-                this.ps.executeUpdate();
-                this.ps.close();
+            ps.setString(1, usuario.getEmail());
+            ps.executeUpdate();
 
-            }catch(SQLException ex){
-                ex.printStackTrace();
-            }catch(Exception ex){
-                ex.printStackTrace();
+        } catch (SQLException ex) {
+            ex.printStackTrace();  // Melhorar para usar logging
         }
     }
 
-    public Usuario validar(String email, String senha) {
+    public Usuario validar(String email) {
+        String query = "SELECT * FROM Usuarios WHERE email = ?";
+        try (Connection conn = this.conexao.getConnection();
+             PreparedStatement ps = conn.prepareStatement(query)) {
 
-        try {
-            this.query = "SELECT * FROM usuario WHERE email = ? AND senha = ?";
-            this.ps = this.conexao.getConnection().prepareStatement(query);
-            this.ps.setString(1, email);
-            this.ps.setString(2, senha);
-            rs = this.ps.executeQuery();
-
-            if (rs.next()) {
-                Usuario usuario = new Usuario();
-                usuario.setEmail(rs.getString("email"));
-                usuario.setSenha(rs.getString("senha"));
+            ps.setString(1, email);
+            try (ResultSet rs = ps.executeQuery()) {
+                if (rs.next()) {
+                    Usuario usuario = new Usuario();
+                    usuario.setId(rs.getInt("id"));
+                    usuario.setEmail(rs.getString("email"));
+                    return usuario;
+                }
             }
-            rs.close();
-            this.ps.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
+
+        } catch (SQLException ex) {
+            ex.printStackTrace();  // Melhorar para usar logging
         }
-        return new Usuario();
+        return null;
     }
 }

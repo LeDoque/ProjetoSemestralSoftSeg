@@ -1,0 +1,12 @@
+
+ˆ	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(»û ı8¦¾Ãş1J$587d83da-92dd-47d5-b9be-88d1c367cf3a
+‡	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(»ñ•}8¦¾Ãş1J$a3e93935-53bf-416b-9f1e-a3617057059a
+¯
+java:S1130 "lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(»û ı8ª¾Ãş1J$df5138fb-d890-4def-a2c5-7104615e345d
+r	java:S106'"+Replace this use of System.out by a logger.(ŸñÜÁùÿÿÿÿ8«¾Ãş1J$c3305091-5a0c-437c-929e-876750fd9333
+®
+java:S1130*"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(»ñ•}8¬¾Ãş1J$383d1ebd-56f5-42fb-8fca-97b2229bb5ff
+m	java:S1068"+Replace this use of System.out by a logger.(œ‚”è8­¾Ãş1J$fa40d224-39af-4290-8047-3315505858af
+m	java:S106:"+Replace this use of System.out by a logger.(£¬8­¾Ãş1J$cb59a988-1d4d-4a04-b164-ccc4ff55e0be
+x
+java:S1068"0Remove this unused "USER_POOL_ID" private field.(É˜åØüÿÿÿÿ8®¾Ãş1J$4275006d-308b-4ff1-9838-216a01608658

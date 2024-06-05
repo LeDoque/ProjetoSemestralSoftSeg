@@ -1,7 +1,32 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(¡û•ûÿÿÿÿ8Œ¬¨Ãõ1J$72533421-a54a-4caa-b6f6-452c5966d48a
-r	java:S106"+Replace this use of System.out by a logger.(‰â—Šûÿÿÿÿ8¬¨Ãõ1J$ae99bc0d-28d1-4060-b859-e026caf9d52b
-r	java:S106"+Replace this use of System.out by a logger.(€ÒÊ¯øÿÿÿÿ8¬¨Ãõ1J$5f73c4d5-7e99-45dc-95c0-9deb688df549
-m	java:S106"+Replace this use of System.out by a logger.(¶ÿˆ”8¬¨Ãõ1J$a66d7319-704e-4b09-bb0d-448f2370611c
-l	java:S106"+Replace this use of System.out by a logger.(øã¢.8¬¨Ãõ1J$dce39106-e232-48d2-8881-3d75b27a392f
-r	java:S106"+Replace this use of System.out by a logger.(°ƒÂÁøÿÿÿÿ8¬¨Ãõ1J$e95c5cf2-4496-47a5-b3d4-ec75754cb4d2
+j
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8½äÃş1J$2afbeabb-13a5-4754-8bf9-002cc68bc704
+r	java:S106"+Replace this use of System.out by a logger.(ŞìÔêÿÿÿÿÿ8Š¿ÆÃş1J$d8288dfb-dfd3-4497-9e70-585efa27b58b
+r	java:S106"+Replace this use of System.out by a logger.(¢Çš³úÿÿÿÿ8Š¿ÆÃş1J$65ee3544-7103-420a-b2ba-853b85afdacd
+r	java:S106"+Replace this use of System.out by a logger.(ıéÜúÿÿÿÿ8ÅäÃş1J$a5f55250-8bd9-4a5e-bdb7-09dacb4d515e
+r	java:S106 "+Replace this use of System.out by a logger.(½ˆë„ûÿÿÿÿ8ÅäÃş1J$01050617-a2af-43d9-b070-0e862be9bd4d
+m	java:S1060"+Replace this use of System.out by a logger.(îıë•8ÆäÃş1J$6dc3b3bf-bafa-442b-9b65-ed18eda30557
+l	java:S1066"+Replace this use of System.out by a logger.(ı²Û88ÆäÃş1J$ea492996-27ae-44dc-b201-52858e8431fd
+m	java:S1067"+Replace this use of System.out by a logger.(Ş…ºù8ÆäÃş1J$e76aecc9-22f0-4f6e-b556-d59e63963418
+r	java:S1069"+Replace this use of System.out by a logger.(Á¨×™şÿÿÿÿ8ÆäÃş1J$4ababf14-7b96-405a-ad72-677142f2ec6a
+m	java:S106@"+Replace this use of System.out by a logger.(İçÜÇ8ÇäÃş1J$12d5eb75-3e75-40fd-bd97-e4b5fe391ce2
+m	java:S106A"+Replace this use of System.out by a logger.(Ş…ºù8ÇäÃş1J$47f09768-5306-4e43-9df0-950d0aae0e3b
+r	java:S106C"+Replace this use of System.out by a logger.(Á¨×™şÿÿÿÿ8ÇäÃş1J$8b5b394f-890d-41f5-aaef-8c19921a5da2
+l	java:S106H"+Replace this use of System.out by a logger.(üæ¾	8ÈäÃş1J$5c4adefd-2210-4f5c-b3c6-0037c3f8b220
+r	java:S106K"+Replace this use of System.out by a logger.(öšã¼úÿÿÿÿ8ÈäÃş1J$bd10ce40-1842-4122-8b7e-690c42d1eab8
+r	java:S106Q"+Replace this use of System.out by a logger.(ŞìÔêÿÿÿÿÿ8ÈäÃş1J$6f94c3a2-4312-4fe8-9be8-4cbbe8e02bab
+r	java:S106R"+Replace this use of System.out by a logger.(”âÎÛüÿÿÿÿ8ÈäÃş1J$46595138-ee77-4991-acf5-a3de00aa9d05
+m	java:S106S"+Replace this use of System.out by a logger.(ÂÌ¥¼8ÉäÃş1J$f54e70c1-87c4-4ead-8788-d211405607b2
+r	java:S106T"+Replace this use of System.out by a logger.(ÃêÕÉúÿÿÿÿ8ÉäÃş1J$748e6ee2-687b-4854-8e77-c5cf5f28463d
+l	java:S106U"+Replace this use of System.out by a logger.(”â¶g8ÉäÃş1J$9e42b6e2-f0e9-442a-8066-7b208908dcce
+m	java:S106V"+Replace this use of System.out by a logger.(‹×€ü8ÊäÃş1J$cf656c2e-028f-4630-8839-159d88cdffdb
+m	java:S106k"+Replace this use of System.out by a logger.(îıë•8ÊäÃş1J$46504695-78ac-4a79-93eb-1a88c335e4d2
+m	java:S106q"+Replace this use of System.out by a logger.(¶´úî8ÊäÃş1J$5071e57e-a712-4a84-94bd-74c0c8e0ca05
+m	java:S106r"+Replace this use of System.out by a logger.(Ò—‰’8ËäÃş1J$61e9fc0b-6550-4822-af35-fd2c3babd132
+m	java:S106w"+Replace this use of System.out by a logger.(Î­«÷8ÌäÃş1J$9bc445a3-0847-44e1-894a-f84d0a6fabd4
+m	java:S106{"+Replace this use of System.out by a logger.(ëÇª·8ÌäÃş1J$a8ced433-0218-4138-b9f1-e68b7e05b9b6
+m	java:S106|"+Replace this use of System.out by a logger.(Ò—‰’8ÌäÃş1J$a49a4f98-f0e2-4a95-a3c9-d8a2078367c9
+m	java:S106"+Replace this use of System.out by a logger.(¥ç¬Œ8ÌäÃş1J$479cb3c3-2fe3-43e7-88fb-beb61516ce71
+s	java:S106"+Replace this use of System.out by a logger.(÷¥îøıÿÿÿÿ8ÖäÃş1J$250706e1-1739-4160-b412-79a193a2fe9e
+s	java:S106‡"+Replace this use of System.out by a logger.(ŞåçÒùÿÿÿÿ8ÖäÃş1J$f182a735-80f3-4e40-b2e5-4ababbe8b5bd
+s	java:S106‰"+Replace this use of System.out by a logger.(–Æ”Ãıÿÿÿÿ8äÃ¸Äş1J$293a4207-bb95-4fcc-bcac-6e2a10f2bed3

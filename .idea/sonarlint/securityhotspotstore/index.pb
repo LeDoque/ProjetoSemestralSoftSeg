@@ -24,3 +24,25 @@ F
 src/view/MenuView.java,5\7\57f97a920b2e9fc508b70ea3471e468e3a61ad8d
 R
 "src/controller/MenuController.java,b\d\bdaa48084cd527a2c22fc27580071f5a7fff66ba
+E
+src/config.properties,2\9\29886c5d5439009c9b5707381692a3ec0d7810c9
+O
+src/service/CognitoService.java,1\5\15dfef364c415837305910896de0debcb268a0e0
+F
+src/config/Config.java,4\4\44ba20c99f9f7537c6fce35fd88365449ec264f4
+U
+%src/controller/UsuarioController.java,2\b\2bc236ab0a00db1c87a114c7c7b137fa04663e2d
+E
+src/dao/RendaDAO.java,2\d\2d8d24bd68df8c3cb3b10c424e5ecabb9273d610
+D
+src/model/Renda.java,9\1\9155d3f5e41f8c242dc16737f1f71f4ca564aeb0
+D
+src/model/Gasto.java,1\3\13ed9a9dbb61b7f81a80395a04251c4dbe0f7472
+E
+src/dao/GastoDAO.java,d\f\df53133b808c1a0c2b8bceb3cfde196172618636
+S
+#src/controller/RendaController.java,3\8\38d720ac537cfabf3dc49c0e798b73089aea4e29
+S
+#src/controller/GastoController.java,6\1\616090d034bdac08e38290c17c5ca6062a512681
+I
+src/view/ConsoleView.java,6\8\6873fe9e0b945319de2ba5700619fc6f899d05b8

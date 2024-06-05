@@ -1,8 +1,9 @@
 
 K
-java:S1172".Remove this unused method parameter "scanner".(’Ä¬å8òØÂåû1
-m	java:S106"+Replace this use of System.out by a logger.(‹Ü¤8šŸ›åû1J$d8367838-a0ff-4034-8f90-effd69caa7bd
-r	java:S106"+Replace this use of System.out by a logger.(³™ì·ÿÿÿÿÿ8›Ÿ›åû1J$3b661715-ab8b-4788-848f-0afe29e0a195
-r	java:S106"+Replace this use of System.out by a logger.(Á¨×™şÿÿÿÿ8›Ÿ›åû1J$94b45eca-a7c7-49ce-9030-a4b3888c4f60
-r	java:S106"+Replace this use of System.out by a logger.(£œ‡ÿÿÿÿÿ8œŸ›åû1J$3846ddbf-c80c-4efc-be50-dd17506323e0
-m	java:S106"+Replace this use of System.out by a logger.(‹¶âö8œŸ›åû1J$8f1cb642-0f9d-432b-a30c-b5bb4aa54593
+java:S1172
+".Remove this unused method parameter "scanner".(’Ä¬å8òØÂåû1
+m	java:S106"+Replace this use of System.out by a logger.(‹Ü¤8šŸ›åû1J$d8367838-a0ff-4034-8f90-effd69caa7bd
+r	java:S106"+Replace this use of System.out by a logger.(³™ì·ÿÿÿÿÿ8›Ÿ›åû1J$3b661715-ab8b-4788-848f-0afe29e0a195
+r	java:S106"+Replace this use of System.out by a logger.(Á¨×™şÿÿÿÿ8›Ÿ›åû1J$94b45eca-a7c7-49ce-9030-a4b3888c4f60
+r	java:S106"+Replace this use of System.out by a logger.(£œ‡ÿÿÿÿÿ8œŸ›åû1J$3846ddbf-c80c-4efc-be50-dd17506323e0
+m	java:S106"+Replace this use of System.out by a logger.(‹¶âö8œŸ›åû1J$8f1cb642-0f9d-432b-a30c-b5bb4aa54593

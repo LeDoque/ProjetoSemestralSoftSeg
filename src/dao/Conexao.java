@@ -33,11 +33,11 @@ public class Conexao {
             Class.forName("com.mysql.cj.jdbc.Driver");
             this.connection = DriverManager.getConnection(host, usuario, senha);
         } catch (ClassNotFoundException ex) {
-            ex.printStackTrace();
+            System.err.println("Driver JDBC não encontrado: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         } catch (SQLException ex) {
-            ex.printStackTrace();
-        } catch (Exception ex) {
-            ex.printStackTrace();
+            System.err.println("Erro ao conectar ao banco de dados: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         }
     }
 
@@ -47,7 +47,8 @@ public class Conexao {
                 conectar();
             }
         } catch (SQLException ex) {
-            ex.printStackTrace();
+            System.err.println("Erro ao obter conexão: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         }
         return this.connection;
     }
@@ -59,7 +60,8 @@ public class Conexao {
                 System.out.println("Conexão fechada com sucesso!");
             }
         } catch (SQLException ex) {
-            ex.printStackTrace();
+            System.err.println("Erro ao fechar a conexão: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         }
     }
 }

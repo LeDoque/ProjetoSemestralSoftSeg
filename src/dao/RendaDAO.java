@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RendaDAO {
-
     private Conexao conexao;
 
     public RendaDAO() {
@@ -26,7 +25,8 @@ public class RendaDAO {
             ps.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+            System.err.println("Erro ao inserir renda: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         }
     }
 
@@ -48,7 +48,8 @@ public class RendaDAO {
             }
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+            System.err.println("Erro ao listar rendas: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         }
         return rendas;
     }

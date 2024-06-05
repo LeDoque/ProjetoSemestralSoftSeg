@@ -4,12 +4,10 @@ import model.Gasto;
 import dao.GastoDAO;
 import dao.RendaDAO;
 import model.Renda;
-
 import java.util.Date;
 import java.util.List;
 
 public class GastoController {
-
     private GastoDAO gastoDAO;
     private RendaDAO rendaDAO;
 

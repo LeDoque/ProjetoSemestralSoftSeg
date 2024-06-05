@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GastoDAO {
-
     private Conexao conexao;
 
     public GastoDAO() {
@@ -28,7 +27,8 @@ public class GastoDAO {
             ps.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();  // Melhorar para usar logging
+            System.err.println("Erro ao inserir gasto: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         }
     }
 
@@ -52,7 +52,8 @@ public class GastoDAO {
             }
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+            System.err.println("Erro ao listar gastos: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         }
         return gastos;
     }

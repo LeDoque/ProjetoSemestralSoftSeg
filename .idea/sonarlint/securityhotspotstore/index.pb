@@ -34,3 +34,23 @@ J
 src/dao/FinanceiroDAO.java,b\2\b2688c318ec2cf64362299f4922e0d14822a4c7a
 D
 src/dao/Cognito.java,8\6\861c0918ca1d48b147cc5ed3e768aaea9f585f58
+E
+src/dao/GastoDAO.java,d\f\df53133b808c1a0c2b8bceb3cfde196172618636
+E
+src/dao/RendaDAO.java,2\d\2d8d24bd68df8c3cb3b10c424e5ecabb9273d610
+S
+#src/controller/GastoController.java,6\1\616090d034bdac08e38290c17c5ca6062a512681
+F
+src/config/Config.java,4\4\44ba20c99f9f7537c6fce35fd88365449ec264f4
+S
+#src/controller/RendaController.java,3\8\38d720ac537cfabf3dc49c0e798b73089aea4e29
+U
+%src/controller/UsuarioController.java,2\b\2bc236ab0a00db1c87a114c7c7b137fa04663e2d
+G
+src/view/GastoView.java,4\b\4bdb2b46c1a102022e830aef5436f403d3462a84
+E
+src/config.properties,2\9\29886c5d5439009c9b5707381692a3ec0d7810c9
+G
+src/view/RendaView.java,f\c\fc5b5456c3675b7e0199c7c135a5af6577dc7c07
+O
+src/service/CognitoService.java,1\5\15dfef364c415837305910896de0debcb268a0e0

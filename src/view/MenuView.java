@@ -3,7 +3,6 @@ package view;
 import java.util.Scanner;
 
 public class MenuView {
-
     private Scanner scanner;
 
     public MenuView() {
@@ -17,8 +16,6 @@ public class MenuView {
             System.out.println("1. Cadastrar");
             System.out.println("2. Logar");
             System.out.println("0. Sair");
-
-
 
             int escolha = scanner.nextInt();
             scanner.nextLine();
@@ -34,7 +31,7 @@ public class MenuView {
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Opção inválida. Tente novamente.");
+                    System.err.println("Opção inválida. Tente novamente.");
             }
         }
     }

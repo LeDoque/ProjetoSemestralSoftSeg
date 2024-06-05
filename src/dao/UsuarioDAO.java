@@ -6,6 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.Normalizer;
+import java.util.Locale;
 
 public class UsuarioDAO {
     private Conexao conexao;
@@ -35,7 +36,7 @@ public class UsuarioDAO {
         try (Connection conn = this.conexao.getConnection();
              PreparedStatement ps = conn.prepareStatement(query)) {
 
-            ps.setString(1, email);
+            ps.setString(1, email.toLowerCase(Locale.ROOT));
             try (ResultSet rs = ps.executeQuery()) {
                 if (rs.next()) {
                     Usuario usuario = new Usuario();

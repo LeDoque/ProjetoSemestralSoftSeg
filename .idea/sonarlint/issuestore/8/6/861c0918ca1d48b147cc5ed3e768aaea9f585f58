@@ -1,21 +1,0 @@
-
-™
-java:S3008
-"WRename this field "USER_POOL_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–„åm8°ñÃ²þ1J$7e4dbdaf-47fc-4d90-a1cf-aa19ccca4a54
-—
-java:S3008"TRename this field "CLIENT_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃòêÒ8¿ñÃ²þ1J$cfa9fa46-661d-446f-bbc3-17ef4534a37d
-}
-java:S1118":Add a private constructor to hide the implicit public one.(Ôø—Ò8ÁñÃ²þ1J$e5d1df6b-c930-43df-9f31-510d38f1e1e9
-}
-java:S1128":Remove this unused import 'com.amazonaws.regions.Regions'.(†©Çã8ÃñÃ²þ1J$a3a01270-ed44-40a1-8731-f8ae90f05bef
-œ
-java:S1128"YRemove this unused import 'com.amazonaws.services.cognitoidp.AWSCognitoIdentityProvider'.(¾º°¢8ÃñÃ²þ1J$2d4af774-e5da-4945-8963-d731e6e417b9
-®
-java:S1128"fRemove this unused import 'com.amazonaws.services.cognitoidp.AWSCognitoIdentityProviderClientBuilder'.(ÔÚéÐÿÿÿÿÿ8ÃñÃ²þ1J$370d8584-84d7-4459-a22b-b40b6e64ec43
-Œ
-java:S1128"DRemove this unused import 'com.amazonaws.services.cognitoidp.model'.(Åý†ãýÿÿÿÿ8ÃñÃ²þ1J$a464de1f-0e1c-4af6-aae8-c395a78013f2
-r
-java:S1068
-"0Remove this unused "USER_POOL_ID" private field.(–„åm8ÄñÃ²þ1J$0783e41b-c890-4c00-a53f-32338ad2e334
-p
-java:S1068"-Remove this unused "CLIENT_ID" private field.(ÃòêÒ8ÄñÃ²þ1J$2f4195ce-dd0d-4f18-9166-cb2e3c27f83c

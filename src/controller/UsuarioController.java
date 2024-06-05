@@ -21,7 +21,7 @@ public class UsuarioController {
             usuario.setEmail(email);
             usuarioDAO.inserir(usuario);
         } catch (Exception e) {
-            e.printStackTrace();  // Melhorar para usar logging
+            e.printStackTrace();
         }
     }
 
@@ -30,7 +30,7 @@ public class UsuarioController {
             cognitoService.autenticarUsuario(email, senha);
             return usuarioDAO.validar(email);
         } catch (Exception e) {
-            e.printStackTrace();  // Melhorar para usar logging
+            e.printStackTrace();
         }
         return null;
     }

@@ -4,7 +4,7 @@ public class Usuario {
     private int id;
     private String email;
 
-    // Getters e Setters
+
     public int getId() {
         return id;
     }

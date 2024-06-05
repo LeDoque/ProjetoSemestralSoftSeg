@@ -52,7 +52,7 @@ public class GastoDAO {
             }
 
         } catch (SQLException ex) {
-            ex.printStackTrace();  // Melhorar para usar logging
+            ex.printStackTrace();
         }
         return gastos;
     }

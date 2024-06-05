@@ -40,13 +40,10 @@ public class GastoController {
             System.out.println("Descrição: " + gasto.getDescricao() + ", Valor: " + gasto.getValor() + ", Data: " + gasto.getDataGasto());
         }
         System.out.println("Total de Gastos: " + totalGastos);
-        double totalRenda = calcularTotalRenda(usuarioId);
-        double saldo = totalRenda - totalGastos;
-        System.out.println("Saldo: " + saldo);
         return totalGastos;
     }
 
-    private double calcularTotalRenda(int usuarioId) {
+    public double calcularTotalRenda(int usuarioId) {
         List<Renda> rendas = rendaDAO.listarPorUsuario(usuarioId);
         double totalRenda = 0;
         for (Renda renda : rendas) {

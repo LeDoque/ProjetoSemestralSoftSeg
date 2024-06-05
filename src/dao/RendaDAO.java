@@ -26,7 +26,7 @@ public class RendaDAO {
             ps.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();  // Melhorar para usar logging
+            ex.printStackTrace();
         }
     }
 
@@ -48,7 +48,7 @@ public class RendaDAO {
             }
 
         } catch (SQLException ex) {
-            ex.printStackTrace();  // Melhorar para usar logging
+            ex.printStackTrace();
         }
         return rendas;
     }

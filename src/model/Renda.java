@@ -5,7 +5,7 @@ public class Renda {
     private int usuarioId;
     private double valor;
 
-    // Getters e Setters
+
     public int getId() {
         return id;
     }

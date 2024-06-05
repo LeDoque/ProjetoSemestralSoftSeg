@@ -1,10 +1,12 @@
 package dao;
 
 import model.Usuario;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.Normalizer;
 
 public class UsuarioDAO {
 
@@ -23,11 +25,13 @@ public class UsuarioDAO {
             ps.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();  // Melhorar para usar logging
+            ex.printStackTrace();
         }
     }
 
     public Usuario validar(String email) {
+        email = Normalizer.normalize(email, Normalizer.Form.NFKC);
+
         String query = "SELECT * FROM Usuarios WHERE email = ?";
         try (Connection conn = this.conexao.getConnection();
              PreparedStatement ps = conn.prepareStatement(query)) {
@@ -43,7 +47,7 @@ public class UsuarioDAO {
             }
 
         } catch (SQLException ex) {
-            ex.printStackTrace();  // Melhorar para usar logging
+            ex.printStackTrace();
         }
         return null;
     }

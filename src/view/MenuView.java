@@ -1,42 +1,41 @@
 package view;
 
-import controller.FinanceiroController;
-
 import java.util.Scanner;
 
 public class MenuView {
 
     private Scanner scanner;
 
-    public MenuView(){
+    public MenuView() {
         this.scanner = new Scanner(System.in);
     }
 
-    public int menu(){
-        System.out.println("---- BEM-VINDO ----");
-        System.out.println("Por favor, escolha uma das opções abaixo");
-        System.out.println("(1) Realizar Login");
-        System.out.println("(2) Cadastrar");
-        System.out.println("(9) Sair");
+    public void mostrarMenu() {
+        while (true) {
+            System.out.println("---- BEM-VINDO ----");
+            System.out.println("Por favor, escolha uma das opções abaixo");
+            System.out.println("1. Cadastrar");
+            System.out.println("2. Logar");
+            System.out.println("0. Sair");
 
-        return scanner.nextInt();
-    }
 
-    public int menuUser(){
-        System.out.println("\n---- LOGADO ----");
-        System.out.println("(1) Criar novo relatório");
-        System.out.println("(2) Listar relatório");
-        System.out.println("(9) Sair");
 
-        return scanner.nextInt();
-    }
+            int escolha = scanner.nextInt();
+            scanner.nextLine();
 
-    public void sair(){
-        System.out.println("Fechando aplicação");
-    }
-
-    public void escolhaInvalida(){
-
-        System.out.println("Escolha Inválida!");
+            switch (escolha) {
+                case 1:
+                    new CadastroView().registrar();
+                    break;
+                case 2:
+                    new LoginView().logar();
+                    break;
+                case 0:
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("Opção inválida. Tente novamente.");
+            }
+        }
     }
 }

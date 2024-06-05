@@ -1,26 +1,26 @@
 package view;
 
-import model.Usuario;
+import controller.UsuarioController;
 
 import java.util.Scanner;
 
 public class CadastroView {
+
+    private UsuarioController usuarioController;
     private Scanner scanner;
 
-    public CadastroView(){
+    public CadastroView() {
+        this.usuarioController = new UsuarioController();
         this.scanner = new Scanner(System.in);
     }
 
-    public Usuario cadastro(){
-        System.out.println("---- CADASTRO ----");
-
-        System.out.print("E-mail: ");
+    public void registrar() {
+        System.out.println("Cadastrar novo usuário:");
+        System.out.print("Email: ");
         String email = scanner.nextLine();
-
         System.out.print("Senha: ");
         String senha = scanner.nextLine();
 
-        return new Usuario(email, senha);
-
+        usuarioController.registrarUsuario(email, senha);
     }
 }

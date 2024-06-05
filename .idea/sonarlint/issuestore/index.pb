@@ -24,3 +24,13 @@ F
 src/view/MenuView.java,5\7\57f97a920b2e9fc508b70ea3471e468e3a61ad8d
 R
 "src/controller/MenuController.java,b\d\bdaa48084cd527a2c22fc27580071f5a7fff66ba
+L
+src/view/FinanceiroView.java,c\5\c55bc2921874d6c1eeaa627fa272f88cd2adc6f4
+I
+src/model/Financeiro.java,3\6\36ee44784f08bee23a73d4ff225ffb923742735d
+X
+(src/controller/FinanceiroController.java,6\d\6d1d6b24c77813967550af381f41665cef639ed0
+J
+src/dao/FinanceiroDAO.java,b\2\b2688c318ec2cf64362299f4922e0d14822a4c7a
+D
+src/dao/Cognito.java,8\6\861c0918ca1d48b147cc5ed3e768aaea9f585f58

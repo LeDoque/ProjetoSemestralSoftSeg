@@ -10,6 +10,7 @@ public class CadastroController {
     CadastroView cv;
     private Usuario usuario;
     private UsuarioDAO uDAO;
+
     public CadastroController(){
         this.cv = new CadastroView();
         this.usuario = this.cv.cadastro();

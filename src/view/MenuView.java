@@ -1,5 +1,7 @@
 package view;
 
+import controller.FinanceiroController;
+
 import java.util.Scanner;
 
 public class MenuView {
@@ -18,6 +20,19 @@ public class MenuView {
         System.out.println("(9) Sair");
 
         return scanner.nextInt();
+    }
+
+    public int menuUser(){
+        System.out.println("\n---- LOGADO ----");
+        System.out.println("(1) Criar novo relatório");
+        System.out.println("(2) Listar relatório");
+        System.out.println("(9) Sair");
+
+        return scanner.nextInt();
+    }
+
+    public void sair(){
+        System.out.println("Fechando aplicação");
     }
 
     public void escolhaInvalida(){

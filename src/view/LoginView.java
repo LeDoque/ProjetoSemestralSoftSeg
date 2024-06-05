@@ -3,11 +3,9 @@ package view;
 import controller.UsuarioController;
 import controller.GastoController;
 import model.Usuario;
-
 import java.util.Scanner;
 
 public class LoginView {
-
     private UsuarioController usuarioController;
     private GastoController gastoController;
     private Scanner scanner;
@@ -31,7 +29,7 @@ public class LoginView {
             System.out.println("Login bem-sucedido");
             mostrarMenuUsuarioLogado();
         } else {
-            System.out.println("Falha no login");
+            System.err.println("Falha no login");
         }
     }
 
@@ -45,7 +43,7 @@ public class LoginView {
             System.out.println("0. Sair da aplicação");
 
             int escolha = scanner.nextInt();
-            scanner.nextLine();  // Consume newline
+            scanner.nextLine();
 
             switch (escolha) {
                 case 1:
@@ -64,7 +62,7 @@ public class LoginView {
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Opção inválida. Tente novamente.");
+                    System.err.println("Opção inválida. Tente novamente.");
             }
         }
     }

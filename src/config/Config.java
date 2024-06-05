@@ -11,12 +11,13 @@ public class Config {
         properties = new Properties();
         try (InputStream input = getClass().getClassLoader().getResourceAsStream("config.properties")) {
             if (input == null) {
-                System.out.println("Desculpe, não foi possível encontrar o arquivo config.properties");
+                System.err.println("Desculpe, não foi possível encontrar o arquivo config.properties");
                 return;
             }
             properties.load(input);
         } catch (IOException ex) {
-            ex.printStackTrace();
+            System.err.println("Erro ao carregar o arquivo de configuração: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         }
     }
 

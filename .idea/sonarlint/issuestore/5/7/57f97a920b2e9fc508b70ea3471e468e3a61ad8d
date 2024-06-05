@@ -1,14 +1,9 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(¡û•ûÿÿÿÿ8’•…±ş1J$4b93560b-5555-4f11-a2e8-ffdb16b4b425
-r	java:S106"+Replace this use of System.out by a logger.(‰â—Šûÿÿÿÿ8“•…±ş1J$ebe2455f-eb41-492b-9389-7c84cbb75a58
-r	java:S106"+Replace this use of System.out by a logger.(€ÒÊ¯øÿÿÿÿ8”•…±ş1J$ea1e13f4-9d45-41c6-9b4b-1ea0236ee936
-m	java:S106"+Replace this use of System.out by a logger.(¶ÿˆ”8”•…±ş1J$c3364b87-dbc7-476d-aaa2-ae3c784de3a9
-l	java:S106"+Replace this use of System.out by a logger.(øã¢.8”•…±ş1J$04f13797-7cd5-4cdd-bfa3-b539135aac2d
-r	java:S106"+Replace this use of System.out by a logger.(¹ ¬¸úÿÿÿÿ8••…±ş1J$cbf78524-afe5-4e97-a867-61eda207514c
-r	java:S106"+Replace this use of System.out by a logger.(€Õ €ÿÿÿÿÿ8••…±ş1J$befc2bbc-6397-44e1-88b8-1642fad95f55
-m	java:S106"+Replace this use of System.out by a logger.(‡§úç8–•…±ş1J$dddc979a-43f8-410e-a953-3c2cf36e8edb
-l	java:S106"+Replace this use of System.out by a logger.(øã¢.8–•…±ş1J$49782c3b-5fd5-4700-8592-471d29bf0f75
-r	java:S106#"+Replace this use of System.out by a logger.(Æÿÿÿÿÿ8—•…±ş1J$d1cfe53c-d722-4a74-9e53-a366b09b164a
-r	java:S106("+Replace this use of System.out by a logger.(°ƒÂÁøÿÿÿÿ8—•…±ş1J$f73ee64b-1e3e-490d-8f81-72bff360e068
-„
-java:S1128"<Remove this unused import 'controller.FinanceiroController'.(îá±şùÿÿÿÿ8€’†±ş1J$326d92e3-4655-45a4-a6ee-69ca9eb926aa
+j
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ŠÀ¹Èş1J$e531452e-4d76-4d52-9876-f3d1d2050be2
+L	java:S106"+Replace this use of System.out by a logger.(¡û•ûÿÿÿÿ8³˜ÙÉş1
+L	java:S106"+Replace this use of System.out by a logger.(‰â—Šûÿÿÿÿ8´˜ÙÉş1
+L	java:S106"+Replace this use of System.out by a logger.(¢Çš³úÿÿÿÿ8´˜ÙÉş1
+L	java:S106"+Replace this use of System.out by a logger.(ıéÜúÿÿÿÿ8´˜ÙÉş1
+G	java:S106"+Replace this use of System.out by a logger.(Ìƒï8´˜ÙÉş1
+L	java:S106""+Replace this use of System.err by a logger.(Ø§ª€ıÿÿÿÿ8·˜ÙÉş1

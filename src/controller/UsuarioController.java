@@ -5,7 +5,6 @@ import service.CognitoService;
 import dao.UsuarioDAO;
 
 public class UsuarioController {
-
     private CognitoService cognitoService;
     private UsuarioDAO usuarioDAO;
 
@@ -21,7 +20,7 @@ public class UsuarioController {
             usuario.setEmail(email);
             usuarioDAO.inserir(usuario);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.err.println("Erro ao registrar usuário: " + e.getMessage());
         }
     }
 
@@ -30,7 +29,7 @@ public class UsuarioController {
             cognitoService.autenticarUsuario(email, senha);
             return usuarioDAO.validar(email);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.err.println("Erro ao autenticar usuário: " + e.getMessage());
         }
         return null;
     }

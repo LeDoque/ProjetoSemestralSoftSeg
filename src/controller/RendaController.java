@@ -2,11 +2,9 @@ package controller;
 
 import model.Renda;
 import dao.RendaDAO;
-
 import java.util.List;
 
 public class RendaController {
-
     private RendaDAO rendaDAO;
 
     public RendaController() {

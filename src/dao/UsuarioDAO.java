@@ -1,7 +1,6 @@
 package dao;
 
 import model.Usuario;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -9,7 +8,6 @@ import java.sql.SQLException;
 import java.text.Normalizer;
 
 public class UsuarioDAO {
-
     private Conexao conexao;
 
     public UsuarioDAO() {
@@ -25,7 +23,8 @@ public class UsuarioDAO {
             ps.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+            System.err.println("Erro ao inserir usuário: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         }
     }
 
@@ -47,7 +46,8 @@ public class UsuarioDAO {
             }
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+            System.err.println("Erro ao validar usuário: " + ex.getMessage());
+            ex.printStackTrace(System.err);
         }
         return null;
     }

@@ -1,11 +1,9 @@
 package view;
 
 import controller.UsuarioController;
-
 import java.util.Scanner;
 
 public class CadastroView {
-
     private UsuarioController usuarioController;
     private Scanner scanner;
 

@@ -11,7 +11,7 @@ public class Conexao {
     private Connection connection;
     private static Conexao conexao;
     private Conexao(){
-        this.host = "jdbc:mysql://localhost:3306/projetosss?useSSL=false";
+        this.host = "jdbc:mysql://localhost:3306/projetoSSS?useSSL=false";
         this.usuario = "root";
         this.senha = "root";
 

@@ -1,6 +1,8 @@
 
-n
-java:S1068	"+Remove this unused "scanner" private field.(Ù‘Ğ8÷ÃÈåû1J$07560d1d-50b9-4f02-a581-5f35b577c5b1
+š
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(©”ï¥ıÿÿÿÿ8öò»±ş1J$2617f4e2-d196-435b-9ed5-deb8bd2e0a0d
+p	java:S108")Either remove or fill this block of code.(›Ù¨øÿÿÿÿ8½…Ÿ±ş1J$1df8250c-2f8e-4ff0-9af4-40ebe5def052
+u
+java:S1128"-Remove this unused import 'model.Financeiro'.(åÎŞşÿÿÿÿ8¿…Ÿ±ş1J$bd8b7725-9418-48e9-a9d9-566a905bd131
 i
-java:S1068
-"'Remove this unused "ccl" private field.(õ¶ƒ48ˆ”Èåû1J$e6a4ba27-6713-4fa1-9bbd-bcfdcd445762
+java:S1068"'Remove this unused "ccl" private field.(õ¶ƒ48À…Ÿ±ş1J$e1764f8d-6e7e-4447-8ac6-2a5b869e51a4

@@ -1,0 +1,7 @@
+
+”
+java:S1450"QRemove the "ps" field and declare it as a local variable in the relevant methods.(œíÂÊ8Ç¡ä±þ1J$c6b5570e-ceb4-4245-8b9e-52880afc0c55
+—
+java:S1450"TRemove the "query" field and declare it as a local variable in the relevant methods.(Ëªé¶8×¡ä±þ1J$58aa0e25-5548-4890-9abf-36e3233f914e
+Œ
+java:S2147"DCombine this catch with the one at line 27, which has the same body.(±Ÿ—±ÿÿÿÿÿ8Ù¡ä±þ1J$d1740123-7c5b-4e58-91c2-a0a0c090cd67

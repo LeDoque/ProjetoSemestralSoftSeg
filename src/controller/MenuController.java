@@ -24,20 +24,31 @@ public class MenuController {
 
             if(this.escolha == 1){
                 lcl.realizarLogin(scanner);
+                while (this.escolha != 9){
+                    this.escolha = this.mv.menuUser();
+                    if (this.escolha == 1){
+                        this.gerenciarFinancas();
+                    } else if (this.escolha == 2) {
+
+                    } else if (this.escolha == 9) {
+                        this.mv.sair();
+                    } else {
+                        this.mv.escolhaInvalida();
+                    }
+                }
             } else if (this.escolha == 2) {
                 this.ccl = new CadastroController();
-            } else if (this.escolha == 3) {
-
-                this.gerenciarFinancas();
+            }else if (this.escolha == 9) {
+                this.mv.sair();
             } else {
                 this.mv.escolhaInvalida();
             }
         }
 
     }
-
     private void gerenciarFinancas() {
         FinanceiroController fcl = new FinanceiroController(new FinanceiroView(scanner));
         fcl.gerenciarFinancas();
     }
+
 }

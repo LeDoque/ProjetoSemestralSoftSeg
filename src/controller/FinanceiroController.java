@@ -1,15 +1,19 @@
 package controller;
 
+import dao.FinanceiroDAO;
 import model.Financeiro;
 import view.FinanceiroView;
 
 public class FinanceiroController {
     private Financeiro financeiro;
-    private FinanceiroView financeiroView;
+    FinanceiroView financeiroView;
+    private FinanceiroDAO fDAO;
 
     public FinanceiroController(FinanceiroView financeiroView) {
         this.financeiro = new Financeiro();
         this.financeiroView = financeiroView;
+        this.fDAO = new FinanceiroDAO();
+        this.fDAO.relatorio(this.financeiro);
     }
 
     public void gerenciarFinancas() {
